@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Cluster>
+
+    <Nodo4 nombre="Nodo especial" ip="198.55.2.2" >
+
+        <MaquinaVirtual1 nombre="" sistema_operativo="windows7">
+            <InterfazRed1 ip="197.55.2.0" MAC=""></InterfazRed1>
+            <InterfazRed2 ip="197.55.2.1" MAC=""></InterfazRed2>
+        </MaquinaVirtual1>
+        <MaquinaVirtual2 nombre="" sistema_operativo="windows10">
+           
+        </MaquinaVirtual2>
+
+    </Nodo4>
+
+
+    <Nodo1 nombre="Maquinas que van mal" ip="198.55.2.3" >
+
+        <MaquinaVirtual1 nombre="Tostadora" sistema_operativo="windowsXP"> </MaquinaVirtual1>
+        <MaquinaVirtual2 nombre="Betis" sistema_operativo="linux"></MaquinaVirtual2>
+
+    </Nodo1>
+
+    <Nodo2 nombre="El nodo que se hace un nudo" ip="198.55.2.4" >
+
+        <MaquinaVirtual1 nombre="Antigua maquina" sistema_operativo="windows7"></MaquinaVirtual1>
+        <MaquinaVirtual2 nombre="Super bien distribucion 20.04" sistema_operativo="linux"></MaquinaVirtual2>
+
+    </Nodo2>
+
+    <Nodo3 nombre="El que uso" ip="198.55.2.5" >
+
+        <MaquinaVirtual1 nombre="Daw1 daw1" sistema_operativo="windows8">
+            <InterfazRed1 ip="197.55.2.6" MAC="34342.423423"></InterfazRed1>
+            <InterfazRed2 ip="197.55.2.7" MAC="34342.423421"></InterfazRed2>
+        </MaquinaVirtual1>
+        <MaquinaVirtual2 nombre="Machanguito.NFT" sistema_operativo="linux"></MaquinaVirtual2>
+
+    </Nodo3>
+
+
+
+</Cluster>
