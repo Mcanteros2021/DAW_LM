@@ -12,7 +12,13 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="nombre"></xs:element>
-                        <xs:element name="email"></xs:element>
+                        <xs:element name="email" maxOccurs="unbounded">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <xs:maxLength value="250"/>
+                                </xs:restriction>
+                              </xs:simpleType>
+                        </xs:element>
                         <xs:element name="parentesco"></xs:element>
                     </xs:sequence>
                     <xs:attribute name="tipo">

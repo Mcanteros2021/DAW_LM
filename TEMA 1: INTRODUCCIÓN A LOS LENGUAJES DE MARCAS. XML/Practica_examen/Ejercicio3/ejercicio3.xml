@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<ejercicio3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
 <relacion>
     <persona sexo="hombre" carnet="A1111">
         <nombre>Luis Martin</nombre>
@@ -16,3 +18,4 @@
         <email>raulin@gmail.com</email>
     </persona>
 </relacion>
+</ejercicio3>
