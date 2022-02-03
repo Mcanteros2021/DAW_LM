@@ -1,0 +1,18 @@
+body{
+    display: inline-block;
+}
+
+h1{
+    background-color: red;
+    color: gold;
+    font-size: 100px;
+   
+}
+h2{
+    font-size: 100px;
+    color: black;
+    background-color: yellow;
+    
+}
+
+

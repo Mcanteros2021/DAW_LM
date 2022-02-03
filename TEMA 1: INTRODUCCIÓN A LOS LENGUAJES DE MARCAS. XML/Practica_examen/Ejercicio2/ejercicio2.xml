@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio2" type="application/xml-dtd"?>
+
+<libro>
+    <Titulo></Titulo>
+    <Seccion></Seccion>
+    <SubSeccion></SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema></Tema>
+        </Capitulo>
+    <Copyright></Copyright>
+    </Contenido>
+</libro>
