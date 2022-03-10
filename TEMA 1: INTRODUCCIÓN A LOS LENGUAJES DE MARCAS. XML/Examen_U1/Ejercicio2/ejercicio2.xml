@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio2.dtd" type="application/xml-dtd"?>
+
+<libreria catalogo="historicos">
+    <libro titulo="Mein Kampf" editorial="88" autor="Adolph Hitler" />
+    <libro titulo="Siuuuu" editorial="CR7" autor="El Bicho" />
+    <revista marca="Marca">
+        <numero>1</numero>
+        <titular>aaaaaaaaaa</titular>
+        <editorial>Santillana</editorial>
+    </revista>
+    <periodico fecha="22-2-2222" nombre="Futuro" />
+</libreria>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 1px solid;
+        }
+        #titulo{
+            background-color: teal;
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+
+    <form>
+
+        
+        <table >
+
+            <tr> 
+                <th colspan="2" id="titulo">IES Alixar Login</th>
+            </tr>
+
+            <tr>
+                <td><label>Usuario: </label></td>
+                <td><input type="text"/></td>
+            </tr>   
+            <tr>
+                <td><label>Password: </label></td>
+                <td><input type="text"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="fecha">Fecha de Nacimiento</label></td>
+                <td> <input type="date" name="fecha" /></td>
+            </tr>
+
+            <tr>
+                <td> <label for="matriculacion">Curso de matriculación: </label></td>
+                <td> <select name="matriculacion">
+                    <option>PRIMERO DE DAW1</option>
+                    <option>PRIMERO DE SMR</option>
+                    <option>PRIMERO DE INGENIERIA ROBOTICA</option>
+                    
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label>Role</label></td>
+                <td>  <ul style="list-style-type: none">
+                
+                   
+                    <li><input type="radio" name="rol" value="estudiante" />Estudiante</li>
+                    <li><input type="radio" name="rol" value="profesor" />Profesor</li>
+                    <li><input type="radio" name="rol" value="apoyo" />Apoyo</li>
+                    <li><input type="radio" name="rol" value="staff" />Staff</li>
+              
+                           
+                       
+                    </ul></td>
+            </tr>
+            <tr>
+                <td><label>Forma de comunicación</label></td>
+                <td>  
+                    <ul style="list-style-type: none">   
+                    <li><input type="checkbox" name="comunicación" value="mail" />Mail</li>
+                    <li><input type="checkbox" name="comunicación" value="Teléfono" />Teléfono</li>
+                    <li><input type="checkbox" name="comunicación" value="Correo" />Correo</li>               
+                    </ul></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="Enviar"/></td>
+                <td><input type="button" value="Borrar"/></td>
+            </tr>   
+
+    
+           
+
+            
+           
+           
+    
+
+
+
+
+
+        </table>
+
+     
+
+
+
+
+    </form>
+
+
+
+    
+</body>
+</html>

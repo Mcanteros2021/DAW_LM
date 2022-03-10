@@ -1,0 +1,15 @@
+<!ELEMENT libreria (libro|revista|periodico)+>
+<!ATTLIST libreria catalogo CDATA #REQUIRED>
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro titulo CDATA #REQUIRED>
+<!ATTLIST libro editorial CDATA #REQUIRED>
+<!ATTLIST libro autor CDATA #REQUIRED>
+<!ELEMENT revista (numero, titular?, editorial)>
+<!ATTLIST revista marca CDATA #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT titular (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT periodico EMPTY>
+<!ATTLIST periodico fecha CDATA #REQUIRED>
+<!ATTLIST periodico nombre CDATA #REQUIRED>
+<!ATTLIST periodico version_web CDATA #IMPLIED>

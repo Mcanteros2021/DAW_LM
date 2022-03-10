@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicio3.xsd">
+
+
+    <alumno dni="11223344A">
+        <nombre>Miguel Olivares</nombre>
+        <direccion>
+            <calle>Avenida de la Torre</calle>
+            <numero>16</numero>
+            <ciudad>Tomares</ciudad>
+            <provincia>Sevilla</provincia>
+        </direccion>
+        <telefono>954556677</telefono>
+        <edad>19</edad>
+    </alumno>
+    <alumno dni="22334455B">
+        <nombre>Laura Jiménez</nombre>
+        <direccion>
+            <calle>Calle del Agua</calle>
+            <numero>3</numero>
+            <ciudad>Niebla</ciudad>
+            <provincia>Huelva</provincia>
+        </direccion>
+        <direccion>
+            <calle>Avenida de Andalucía</calle>
+            <numero>42</numero>
+            <ciudad>Sevilla</ciudad>
+            <provincia>Sevilla</provincia>
+        </direccion>
+        <telefono>959778899</telefono>
+    </alumno>
+</alumnos>
+
