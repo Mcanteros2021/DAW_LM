@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            width: 99%;
+            height: 99%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+
+
+        }
+        fieldset{
+            display: flex;
+           justify-content: center;
+           width: 800px;
+           margin-bottom: 10%;
+            
+        }
+        label{
+            padding-right: 5px;
+
+        }
+        #form1{
+            display: flex;
+           align-items: flex-start;
+            height: 100%;
+           flex-direction: column;
+           margin-right: 5px;
+
+        }
+        #form2{
+            display: flex;
+           align-items: flex-start;
+           flex-direction: column;
+           margin-right: 5px;
+           height: 100%;
+
+        }
+        #form3{
+            display: flex;
+           flex-direction: column;
+           height: 100%;
+
+        }
+        #button{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+
+        }
+        label,input{
+
+            margin-top: 3px;
+
+
+
+        }
+        text{
+            margin-bottom: 9px;
+            color: red;
+        }
+        body{
+            border:1px solid blue;
+        }
+        legend{
+            color: blue;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <figcaption><h1>Reservation request</h1></figcaption>
+
+        <fieldset>
+            <legend>General Information</legend>
+            <div id="form1">
+                <label>Arrival Date:</label>
+                <label>Nights:</label>
+                <label>Adults:</label>
+                <label>Children:</label>
+                
+            </div>
+            <div  id="form2">
+                
+                <input type="date"/>
+                <input type="text"/>
+                <input type="number" value="1"/>
+                <input type="number" value="0"></input/>
+            </div>
+            <div id="form3">
+
+                <text>Arrival Date Is Invalid</text>
+                <text>Night must be a number</text>
+                
+               
+               
+            </div>
+            
+           
+
+        </fieldset>
+       
+
+
+
+    </form>
+
+    <form>
+       
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div id="form1">
+                <label>Name:</label>
+                <label>Email:</label>
+                <label>Phone:</label>
+                
+                
+            </div>
+            <div  id="form2">
+                
+                <input type="text"/>
+                <input type="text" value="graceyahoo.com"/>
+                <input type="tel" value="123-456-789"/>
+                
+            </div>
+            <div id="form3">
+
+                <text>Name is required</text>
+                <text>Email Address Invalid</text>
+                <text>Phone Number Invalid</text>
+               
+               
+            </div>
+            
+           
+
+        </fieldset>
+
+       
+    <div id="button">
+        <input type="button" value="Submit reservation"/>
+        <input type="button" value="clear"/>
+
+    </div>
+   
+
+
+    </form>
+
+    
+</body>
+</html>
