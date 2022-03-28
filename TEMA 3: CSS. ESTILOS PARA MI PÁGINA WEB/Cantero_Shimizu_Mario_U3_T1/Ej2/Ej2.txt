@@ -1,0 +1,2 @@
+Se debe a que no tienen la clase verse, por lo que no aplican los mismo estilos.
+Para cambiarlo basta con añadir la clase a los párrafos.

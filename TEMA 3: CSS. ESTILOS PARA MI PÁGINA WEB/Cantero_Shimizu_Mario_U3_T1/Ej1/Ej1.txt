@@ -1,0 +1,10 @@
+1. El body de página es de color tan.
+2. Los H1 son de color maroon y tiene un tamaño de fuente de 20pt.
+3. Los hr son de color navy.
+4. Los p tienen un tamaño de fuente de 12 pt y tienen un margen izquierdo de 15 pixeles.
+Además los p con la clase verse son color maroon y su margen izquierdo pasa a ser de 60 px.
+5. Los link por defecto son de color verde, los visitados de color amarillo, 
+cuando se pasa el cursor por encima negro y cuando están activos de color azul.
+6. La clase reference no tiene estilos declarados en la hoja de estilos.
+Los demás comentarios en los que se especifican otros elementos, no tienen 
+estilos declarados más que el del body que es padre de todos.
